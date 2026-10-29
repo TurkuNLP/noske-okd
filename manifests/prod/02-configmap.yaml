@@ -1,6 +1,6 @@
 # ConfigMap — manatee registry for production corpora
 # BEFORE APPLYING: replace turkunlp-noske-prod below.
-# Add registry entries here as corpora are decided (post Veronika/Erik meeting).
+# Add registry entries here as corpora are decided.
 # Source of truth for each registry: registry/<corpname> in the project repo.
 
 apiVersion: v1

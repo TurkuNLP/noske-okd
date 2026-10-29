@@ -10,7 +10,7 @@
 # the corpus-init container checks whether the corpus is already present on the
 # PVC to avoid re-downloading on every restart.
 #
-# Corpus loading strategy (Session 3+):
+# Corpus loading strategy (since 2026-06):
 #   Corpora are pre-compiled on LUMI-C (via Apptainer + compilecorp) and
 #   uploaded to LUMI-O object storage. The init container downloads the
 #   compiled corpus at pod startup using rclone (S3-compatible). Credentials

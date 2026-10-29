@@ -21,7 +21,8 @@ manifests/
   04-service.yaml       ClusterIP service
   05-route.yaml         OKD Route with edge TLS
 docs/
-  deployment-notes.md   Session-by-session deployment log and next-steps plan
+  deployment-notes.md   Deployment log, runbook and open steps
+  verification-2026-06.md   Dev verification record (2026-06-03)
 ```
 
 ## Image
@@ -43,4 +44,4 @@ oc apply -f manifests/04-service.yaml
 oc apply -f manifests/05-route.yaml
 ```
 
-See `docs/deployment-notes.md` for cluster-specific constraints and corpus loading plan.
+Production uses `manifests/prod/` (see the runbook). See `docs/deployment-notes.md` for cluster-specific constraints and how to load corpora.
