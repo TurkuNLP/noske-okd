@@ -51,8 +51,6 @@ spec:
     spec:
       securityContext:
         runAsNonRoot: true
-        seccompProfile:
-          type: RuntimeDefault
 
       initContainers:
         - name: corpus-init
